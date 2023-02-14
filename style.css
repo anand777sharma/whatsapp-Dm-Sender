@@ -1,0 +1,136 @@
+body {
+    background-color: #202020 !important;
+}
+
+.container {
+    width: 100% !important;
+    background-color: #272727;
+    max-width: 100% !important;
+}
+
+.heading {
+    background-color: #272727;
+    color: #c2c0bc;
+    border: solid .5px black
+}
+
+.numnav {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    height: 2vh;
+    top: 10%;
+    border: none;
+}
+
+.numh {
+    position: absolute;
+    left: 10%;
+}
+
+.msgh {
+    position: absolute;
+    right: 10%;
+}
+
+.left {}
+
+.right {
+    height: 84vh;
+    background-image: url(img/whatsappbg.jpg);
+
+
+}
+
+.copyright {
+    height: 20% !important;
+    background-color: #272727;
+    color: #c2c0bc;
+    border: solid .5px black
+}
+
+element.style {}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .numh {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .btn {
+
+        width: 100% !important;
+        bottom: 0% !important;
+
+    }
+}
+
+@media (max-width: 290px) {
+    .btn {
+        bottom: 10% !important;
+    }
+}
+
+.fs {
+
+    background-color: #404040 !important;
+    color: #cdcdcd !important;
+    border: none !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px !important;
+
+}
+
+#msg {
+    position: absolute;
+    bottom: 15%;
+    right: 1%;
+    width: 60% !important;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border: none !important;
+    background-color: #025c4c;
+    color: #cddfdb;
+    transition: none !important;
+}
+
+.btn {
+    background-color: #202020 !important;
+
+    position: absolute;
+    border: solid 1px black !important;
+    height: 50px;
+    width: 75%;
+    bottom: 5%;
+    right: 0%
+}
